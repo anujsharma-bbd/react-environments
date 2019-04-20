@@ -126,6 +126,6 @@ for dev environment --> <br/>
 <br/>
 <br/>
 Wish you a very Happy coding!!
-
-                     ---<i>Anuj Sharma</i>
+<br/>
+        <i>Anuj Sharma</i>
 
