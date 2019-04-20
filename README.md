@@ -43,20 +43,6 @@ content should be like this  ->
     } 
  </pre>
 
-# using in component
-<code>
-import environment from './environments/environment';
-</code>
-<pre>
-  render(){
-    return(
-        <div>
-          {JSON.stringify(environment)}  
-        </div>
-    );
-  }
-</pre>
-<br/>
 
 # Settings up package.json
 just add <code>prestart</code> and <code>prebuild</code> command as below 
@@ -72,6 +58,21 @@ just add <code>prestart</code> and <code>prebuild</code> command as below
       "eject": "react-scripts eject"
    },
 </pre>
+
+# using in component
+<code>
+import environment from './environments/environment';
+</code>
+<pre>
+  render(){
+    return(
+        <div>
+          {JSON.stringify(environment)}  
+        </div>
+    );
+  }
+</pre>
+<br/>
 
 # running project inside of an environment 
 its mandatory to pass --env=qa | prod | dev etc whatever we need to use environment <br/>
