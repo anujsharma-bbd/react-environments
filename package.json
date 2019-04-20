@@ -1,6 +1,6 @@
 {
    "name": "react-environments",
-   "version": "1.1.7",
+   "version": "1.1.8",
    "description": "node package used to have environments like in angular for react applications, create environment.env files under /environments/ folder and pass env name like 'module --env = qa'",
    "main": "app.js",
    "scripts": {
