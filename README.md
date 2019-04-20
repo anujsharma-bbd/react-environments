@@ -14,12 +14,12 @@ naming convention is very strict to be like environment.prod.js, environment.dev
 
 content should be like this  ->
 <pre>
- -->src
+-->src
+ --> environments
     --> environment.js      ....this file is mandatory to be there and be like other files which can have all the possible properties 
     --> environment.dev.js
     --> environment.prod.js
     --> environment.qa.js
-
 </pre>
 <br/>
  content of any environment file like below ..
