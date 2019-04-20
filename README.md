@@ -4,13 +4,49 @@ this package really helps creating multiple environments in react js projects li
 # installing the project
 <code>npm install --save react-environments </code>
 
-# using in code
+# setting up environment files under /src/environments/ 
+naming convention is very strict to be like environment.prod.js, environment.dev.js , environment.qa.js, environment.pilot.js etc
+
+content should be like this  ->
+<pre>
+ -->src
+    --> environment.js      ....this file is mandatory to be there and be like other files which can have all the possible properties 
+    --> environment.dev.js
+    --> environment.prod.js
+    --> environment.qa.js
+
+</pre>
+<br/>
+ content of any environment file like below ..
+ <br/>
+ environment.qa.js
+ <pre>
+    module.exports = {
+     "baseUrl": "url qa",
+     "systemName": "System QA",
+     "settings": {
+        "name": "test QA",
+        "age": 14
+     }
+    } 
+ </pre>
+ <br/>
+ environment.js
+ <pre>
+    module.exports = {
+     "baseUrl": "url dev",
+     "systemName": "System dev",
+     "settings": {
+        "name": "test dev",
+        "age": 11
+     }
+    } 
+ </pre>
+
+# using in component
 <code>
 import environment from './environments/environment';
 </code>
-<br/>
-
-# using environment in component
 <pre>
   render(){
     return(
