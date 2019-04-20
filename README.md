@@ -3,6 +3,8 @@ this package really helps creating multiple environments in react js projects li
 
 <i>Auther : Anuj Sharma</i>
 <br/>
+Code git repo <a href='https://github.com/anujsharma-bbd/react-environments'>https://github.com/anujsharma-bbd/react-environments</a>
+<br/>
 Implementation git repo <a href='https://github.com/anujsharma-bbd/using-react-environments-package'>https://github.com/anujsharma-bbd/using-react-environments-package</a>
 # installing the project
 <code>npm install --save react-environments </code>
