@@ -1,6 +1,12 @@
 {
    "name": "react-environments",
-   "version": "1.1.8",
+   "version": "1.1.9",
+   "keywords": [
+      "react-environments",
+      "environments",
+      "react like angular environments",
+      "environments with ease"
+   ],
    "description": "node package used to have environments like in angular for react applications, create environment.env files under /environments/ folder and pass env name like 'module --env = qa'",
    "main": "app.js",
    "scripts": {
