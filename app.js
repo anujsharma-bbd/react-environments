@@ -17,7 +17,7 @@ const sourceFile = require(desiredEnvFile);
 
 let allProps = Object.assign({}, destinationFile, sourceFile);
 
-allProps = 'module.exports = ' + JSON.stringify(allProps);
+allProps = 'module.exports = ' + JSON.stringify(allProps, stringify, 4);
 
 fs.writeFile(envfile, allProps, (err) => {
    if (err) throw err;
