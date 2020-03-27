@@ -18,6 +18,10 @@
    },
    "author": "Anuj Sharma, SHARMAANUJ@HOTMAIL.COM, +918860216332",
    "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/anujsharma-bbd/react-environments.git"
+   },
    "dependencies": {
       "minimist": "^1.2.0"
    }
